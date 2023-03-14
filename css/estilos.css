@@ -1,0 +1,123 @@
+body,
+html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url(../images/bg-palm.jpg) no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+
+#contenedor-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+#contendor-secundario {
+
+    width: 400px;
+    height: 600px;
+
+}
+
+#avatar {
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+
+}
+
+img {
+    width: 140px;
+
+}
+
+#contener-botones {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+
+}
+
+
+button {
+
+    display: flex;
+    border: none;
+    margin: 6px;
+    background-color: white;
+    border-radius: 20px;
+    width: 350px;
+    height: 35px;
+    font-size: x-small;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+#iconos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(18, 171, 72);
+
+    height: 100%;
+
+}
+
+#texto {
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-right: 30px;
+}
+
+#redes {
+
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 30px;
+    
+}
+
+.lab {
+    margin: 45px;
+}
+
+.la-twitter {
+    cursor: pointer; 
+    color: black;
+}
+
+.la-twitter:hover {
+    color:cornflowerblue;
+}
+.la-facebook-f{
+    color: black;
+    cursor: pointer; 
+}
+
+.la-facebook-f:hover{
+    color:cornflowerblue;
+}
+
+.la-linkedin-in{
+    color: black;
+    cursor: pointer; 
+}
+
+.la-linkedin-in:hover{
+    color:cornflowerblue;
+}
